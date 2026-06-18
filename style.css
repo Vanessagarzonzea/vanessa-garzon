@@ -393,7 +393,13 @@ footer img {
 }
 
 footer a { color: var(--soft-gold); }
-
+.service-img img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 20px;
+}
 @media (max-width: 980px) {
   .hero-grid, .service-grid, .bio { grid-template-columns: 1fr; }
   .portrait-card img { height: auto; }
